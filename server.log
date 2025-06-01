@@ -1,0 +1,107 @@
+nohup: ignoring input
+PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20230831
+PHP    compiled with module API=20220829
+These options need to match
+ in Unknown on line 0
+PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20230831
+PHP    compiled with module API=20220829
+These options need to match
+ in Unknown on line 0
+  PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+  Module compiled with module API=20230831
+  PHP    compiled with module API=20220829
+  These options need to match
+  in Unknown on line 0
+  PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+  Module compiled with module API=20230831
+  PHP    compiled with module API=20220829
+  These options need to match
+  in Unknown on line 0
+
+   INFO  Server running on [http://127.0.0.1:8002].  
+
+  Press Ctrl+C to stop the server
+
+
+   INFO  Environment modified. Restarting server...  
+
+  PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+  Module compiled with module API=20230831
+  PHP    compiled with module API=20220829
+  These options need to match
+  in Unknown on line 0
+  PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+  Module compiled with module API=20230831
+  PHP    compiled with module API=20220829
+  These options need to match
+  in Unknown on line 0
+
+   INFO  Server running on [http://127.0.0.1:8002].  
+
+  Press Ctrl+C to stop the server
+
+
+   INFO  Environment modified. Restarting server...  
+
+  PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+  Module compiled with module API=20230831
+  PHP    compiled with module API=20220829
+  These options need to match
+  in Unknown on line 0
+  PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+  Module compiled with module API=20230831
+  PHP    compiled with module API=20220829
+  These options need to match
+  in Unknown on line 0
+
+   INFO  Server running on [http://127.0.0.1:8002].  
+
+  Press Ctrl+C to stop the server
+
+  The environment file is invalid!
+  Failed to parse dotenv file. Encountered an invalid name at [LOG_DEPRECATIONSnohup php artisan serve --port].
+  2025-05-07 17:49:26 / ............................................ ~ 0.23ms
+  The environment file is invalid!
+  Failed to parse dotenv file. Encountered an invalid name at [LOG_DEPRECATIONSnohup php artisan serve --port].
+  2025-05-07 17:49:27 /api/login ................................... ~ 0.15ms
+  The environment file is invalid!
+  Failed to parse dotenv file. Encountered an invalid name at [LOG_DEPRECATIONSnohup php artisan serve --port].
+  2025-05-07 17:49:30 /api/login ................................... ~ 0.15ms
+  The environment file is invalid!
+  Failed to parse dotenv file. Encountered an invalid name at [LOG_DEPRECATIONSnohup php artisan serve --port].
+  2025-05-07 17:49:32 /api/login ................................... ~ 0.14ms
+  The environment file is invalid!
+  Failed to parse dotenv file. Encountered an invalid name at [LOG_DEPRECATIONSnohup php artisan serve --port].
+  2025-05-07 17:49:39 /api/login ................................... ~ 0.14ms
+  The environment file is invalid!
+  Failed to parse dotenv file. Encountered an invalid name at [LOG_DEPRECATIONSnohup php artisan serve --port].
+  2025-05-07 17:49:48 /api/login ................................... ~ 0.41ms
+  The environment file is invalid!
+  Failed to parse dotenv file. Encountered an invalid name at [LOG_DEPRECATIONSnohup php artisan serve --port].
+  2025-05-07 17:49:27 /login .......................................... ~ 33s
+  The environment file is invalid!
+  Failed to parse dotenv file. Encountered an invalid name at [LOG_DEPRECATIONSnohup php artisan serve --port].
+  2025-05-07 17:52:56 /users ....................................... ~ 2.22ms
+  2025-05-07 17:50:00 .............................................. ~ 3m 34s
+  2025-05-07 17:52:56 .................................................. ~ 1m
+  The environment file is invalid!
+  Failed to parse dotenv file. Encountered an invalid name at [LOG_DEPRECATIONSnohup php artisan serve --port].
+  2025-05-07 17:58:57 /api/login ................................... ~ 1.24ms
+  The environment file is invalid!
+  Failed to parse dotenv file. Encountered an invalid name at [LOG_DEPRECATIONSnohup php artisan serve --port].
+  2025-05-07 17:58:58 /api/login ................................... ~ 0.18ms
+  The environment file is invalid!
+  Failed to parse dotenv file. Encountered an invalid name at [LOG_DEPRECATIONSnohup php artisan serve --port].
+  2025-05-07 17:58:59 /api/login ................................... ~ 0.13ms
+  The environment file is invalid!
+  Failed to parse dotenv file. Encountered an invalid name at [LOG_DEPRECATIONSnohup php artisan serve --port].
+  2025-05-07 17:59:49 /api/login ................................... ~ 0.17ms
+  The environment file is invalid!
+  Failed to parse dotenv file. Encountered an invalid name at [LOG_DEPRECATIONSnohup php artisan serve --port].
+  2025-05-07 18:00:13 /api/login ................................... ~ 0.19ms
+  The environment file is invalid!
+  Failed to parse dotenv file. Encountered an invalid name at [LOG_DEPRECATIONSnohup php artisan serve --port].
+  2025-05-07 18:02:50 /api/user .................................... ~ 0.42ms
+  2025-05-07 18:02:50 ................................................. ~ 45s

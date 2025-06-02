@@ -32,7 +32,12 @@ class OrderController extends Controller
 
         // Dispara o e-mail
         if ($customerEmail) {
-            Mail::to($customerEmail)->send(new OrderNotificationMail($order));
+            try {
+                Mail::to($customerEmail)->send(new OrderNotificationMail($order));
+            } catch (\Exception $e) {
+                // Loga o erro, mas não impede o fluxo do cadastro do pedido
+                \Log::error('Erro ao enviar e-mail de pedido: ' . $e->getMessage());
+            }
         }
 
         return response()->json($order, 201);

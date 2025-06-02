@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\Order\StoreOrderRequest;
+use App\Http\Requests\Order\UpdateOrderRequest;
 use App\Mail\OrderNotificationMail;
-use App\Models\Customer;
 use App\Models\Order;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 class OrderController extends Controller
@@ -16,16 +16,14 @@ class OrderController extends Controller
         return response()->json($orders);
     }
 
-    public function store(Request $request)
+    public function store(StoreOrderRequest $request)
     {
         $order = Order::create([
             'customer_id' => $request->customer_id,
         ]);
 
         // Associa os produtos ao pedido (espera um array de IDs em 'products')
-        if ($request->has('products') && is_array($request->products)) {
-            $order->products()->attach($request->products);
-        }
+        $order->products()->attach($request->products);
 
         $order->load(['customer', 'products']);
 
@@ -46,14 +44,12 @@ class OrderController extends Controller
         return response()->json($order);
     }
 
-    public function update(Request $request, Order $order)
+    public function update(UpdateOrderRequest $request, Order $order)
     {
         $order->update($request->only('customer_id'));
 
         // Atualiza os produtos do pedido (espera um array de IDs em 'products')
-        if ($request->has('products') && is_array($request->products)) {
-            $order->products()->sync($request->products);
-        }
+        $order->products()->sync($request->products);
 
         $order->load(['customer', 'products']);
 

@@ -2,6 +2,18 @@
 
 API RESTful para gerenciamento de clientes, produtos e pedidos de uma pastelaria.
 
+---
+
+## Postman Collection
+
+Uma **collection do Postman** foi criada com todos os endpoints da API, incluindo variáveis para configurar a URL base e o token de autenticação.  
+Isso facilita o teste e a integração dos endpoints.
+
+O arquivo da collection está disponível na pasta `docs` do projeto.
+
+Importe o arquivo `.json` da collection no Postman, ajuste as variáveis `{{url}}` e `{{token}}` conforme necessário e utilize todos os endpoints rapidamente.
+
+
 ## Requisitos
 
 - PHP >= 8.2
@@ -56,7 +68,7 @@ MAIL_FROM_NAME="Dexian Challenge"
 php artisan migrate
 ```
 
-## Popular o banco de dados com dados de exemplo
+## Popular o banco de dados
 
 ```bash
 php artisan db:seed
@@ -83,14 +95,12 @@ php artisan test
 
 > **Obs:** Para acessar os endpoints de clientes, produtos e pedidos, é necessário estar autenticado via Sanctum.
 
----
+> **Para acessar a API:**  
+> Você pode cadastrar um novo usuário pelo endpoint `/api/register` ou utilizar um dos usuários criados automaticamente pelo seeder (`php artisan db:seed`).
+>
+> O sistema já inclui uma série de produtos pré-definidos (ex: Pastel de Carne, Pastel de Queijo, etc.) criados automaticamente ao executar o seeder.
+>
+> Após o cadastro ou login pelo endpoint `/api/login`, utilize o token de autenticação retornado para acessar os demais endpoints protegidos.
 
-## Postman Collection
 
-Uma **collection do Postman** foi criada com todos os endpoints da API, incluindo variáveis para configurar a URL base e o token de autenticação.  
-Isso facilita o teste e a integração dos endpoints.
-
-O arquivo da collection está disponível na pasta `docs` do projeto.
-
-Importe o arquivo `.json` da collection no Postman, ajuste as variáveis `{{base_url}}` e `{{token}}` conforme necessário e utilize todos os endpoints rapidamente.
 

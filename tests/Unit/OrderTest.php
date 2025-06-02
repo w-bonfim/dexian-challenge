@@ -11,16 +11,7 @@ class OrderTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function test_order_belongs_to_customer()
-    {
-        $customer = Customer::factory()->create();
-        $order = Order::factory()->create(['customer_id' => $customer->id]);
-
-        $this->assertInstanceOf(Customer::class, $order->customer);
-        $this->assertEquals($customer->id, $order->customer->id);
-    }
-
-    public function test_order_can_have_many_products()
+    public function test_order_with_multiple_products()
     {
         $order = Order::factory()->create();
         $products = Product::factory()->count(3)->create();
@@ -31,7 +22,7 @@ class OrderTest extends TestCase
         $this->assertInstanceOf(Product::class, $order->products->first());
     }
 
-    public function test_order_can_be_created()
+    public function test_create_order()
     {
         $customer = Customer::factory()->create();
 

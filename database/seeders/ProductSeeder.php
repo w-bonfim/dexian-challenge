@@ -9,7 +9,7 @@ class ProductSeeder extends Seeder
 {
     public function run()
     {
-        // Produtos fixos já definidos
+        // Produtos pré-cadastrado
         $produtosFixos = [
             [
                 'name' => 'Pastel de Carne',

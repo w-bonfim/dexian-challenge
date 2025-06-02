@@ -23,4 +23,9 @@ class Customer extends Model
     protected $casts = [
         'birthday' => 'date',
     ];
+
+    public function orders()
+    {
+        return $this->hasMany(Order::class);
+    }
 }

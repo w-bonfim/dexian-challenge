@@ -559,18 +559,18 @@
 							"formdata": [
 								{
 									"key": "name",
-									"value": "Arroz",
+									"value": "Pastel de Frango",
 									"type": "text"
 								},
 								{
 									"key": "price",
-									"value": "50",
+									"value": "100",
 									"type": "text"
 								},
 								{
 									"key": "photo",
 									"type": "file",
-									"src": "/C:/Users/wellington.santos/Downloads/arroz (1).png"
+									"src": "/C:/Users/wellington.santos/Downloads/pastel-frango.png"
 								}
 							]
 						},
@@ -618,7 +618,7 @@
 							"formdata": [
 								{
 									"key": "name",
-									"value": "TEste",
+									"value": "Pastel de Frango",
 									"type": "text"
 								},
 								{
@@ -629,7 +629,7 @@
 								{
 									"key": "photo",
 									"type": "file",
-									"src": "/C:/Users/wellington.santos/Downloads/arroz (1).png"
+									"src": "/C:/Users/wellington.santos/Downloads/pastel-frango.png"
 								}
 							]
 						},
